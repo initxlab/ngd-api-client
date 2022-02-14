@@ -1,0 +1,33 @@
+{
+    "name": "initxlab/ngd-api-client",
+    "description": "Light client for testing request to initxlab/ngd-api-server",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0.2",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Initxlab\\": "initxlab/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NgdClient\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean M. Nemo",
+            "email": "initxlab@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^6.0"
+    }
+}
