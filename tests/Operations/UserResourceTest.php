@@ -18,7 +18,7 @@ class UserResourceTest extends TestCase
 
     public function testCanUserHydraCollectionGet(): void
     {
-        $client = new Client('http://sfp8.xlab:8080','/api/users');
+        $client = new Client('http://localhost:8000','/api/users');
 
         $request = $client->createRequest(self::DEFAULT_CLIENT_OPTIONS);
 
