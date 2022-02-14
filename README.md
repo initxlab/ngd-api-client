@@ -3,9 +3,9 @@
 Download or clone the repo from GitHub
 - requirement : <mark>php >= 8.0.2 </mark>
 ```
-git clone https://github.com/initxlab/ngd-api-server.git
+git clone https://github.com/initxlab/ngd-api-client.git
 ```
-
+ 
 **Download Composer dependencies**
 
 You need [Composer](https://getcomposer.org/download/) to complete the process.
